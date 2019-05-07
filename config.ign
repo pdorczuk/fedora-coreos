@@ -1,0 +1,26 @@
+{
+  "ignition": {
+    "config": {},
+    "timeouts": {},
+    "version": "2.1.0"
+  },
+  "networkd": {},
+  "passwd": {
+    "users": [
+      {
+        "name": "core",
+        "sshAuthorizedKeys": [
+          "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDTug2p3PvSMIzKg3QZth6XsxgNSe0mX+erLvkZHl85WeQRPmAxD1WO8+r+rJP3rMxbEL5UxxBtot7wgstGWzvTP+NxtHtpxklwcTKSgHkHLSSG6dknq4PoPacurqMGezR2QiC/lPWteMxxR0v+5+FyMDNSgMA3t9hYYJ8V082Y3fgzUEmu4tc1uxWLC513tbT4YfZ/QJtUkGJKMRT4omOCjZW5jw6qifNvi3lsF4166eMdijZB89FU+l0ojC5LCnBRm3IpNljA+Z3UtWAsgKkG6WmbjgGBgvRsTUZkS3Vv39pR/ds0OHSg0b4was8E5NfaSqnrxn1ykczZsijh4UYc5/DulBN+xVdkXVFvtCrVD+AoGWaXaj/xuwOcUasQ2qdN6t8SI4OIRgu4K92EizMJsnALeyaC6P8bJUsLXFkjTGEBoJmkHJzyfuG9nQZNWRN2tfHcsGlvWOnMJkRQyZdPOqwDuB4T/nliJjqxZXqImnx7qOUmoy6tC8+0+mnzHXC63/gapLEGSOL8Tz7Vl1FO2b5HbfH/lhzIxssBv9loavjwrY3Z6hZUc+nPxRtUSSPuMELP/5ZVlvZZFxXOaM95e8dcp6LM61tQnE2WPqYIskYPOnioLu4dEkjSF/IHPAhCKmwvKZso64+5oPJMsh9I2T/TjKgOiIeEGB+KXf84cQ== pdorczuk@gmail.com"
+        ]
+      },
+      {
+        "groups": [
+          "sudo",
+          "docker"
+        ]
+      }
+    ]
+  },
+  "storage": {},
+  "systemd": {}
+}
